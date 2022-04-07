@@ -1,7 +1,11 @@
-TTGO-Camera
-=====================
+# TTGO-Camera-SSD1306-PIR-BME380
+A rebuild of the development for the above board available at https://www.amazon.com/dp/B07X1W2PT3
 
 ![pic](image/1.jpg)
+
+PressPage Entertainment Inc DBA PINGLEWARE
+
+## Build Modifications
 
 - Now Arduino officially supports the camera, you need to update the Arduino to the latest, see [arduino-esp32](https://github.com/espressif/arduino-esp32/releases) for details.I am using the `1.0.1rc2` version when writing this code.
   
