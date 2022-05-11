@@ -59,7 +59,7 @@ The board uses the I2C protocol to communicate with multiple devics, and adding 
 
 
 ## Test Video
-[YouTube](https://www.youtube.com/watch?v=CibcsmurTbo)
+![ESP32 Camera Test](https://www.youtube.com/watch?v=CibcsmurTbo)
 
 # MCP3245 Single Channel Analog to I2C
 ![Arduino Nano MCP3425 I2C Analog to Digital Converter Tutorial](https://www.youtube.com/watch?v=8mtNd0gtG8M)
