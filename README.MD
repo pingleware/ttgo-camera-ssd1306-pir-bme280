@@ -5,6 +5,11 @@ A rebuild of the development for the above board available at https://www.amazon
 
 PressPage Entertainment Inc DBA PINGLEWARE
 
+## Notice
+This board incorporates many features that can used for a project to interact with people, like the Camera, OLED display and PIR sensor. The BME can provide weather and orientation stats. Additional features that could be included included a microphone and speaker inetrface to have real time audio streaming as well as a GPS monitoting.
+
+The board uses the I2C protocol to communicate with multiple devics, and adding a microphone, speaker and GPS to the I2C bus will permit these extra features. Read more about I2C communication at https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/i2c-devices.
+
 ## Build Modifications
 
 - Now Arduino officially supports the camera, you need to update the Arduino to the latest, see [arduino-esp32](https://github.com/espressif/arduino-esp32/releases) for details.I am using the `1.0.1rc2` version when writing this code.
@@ -55,3 +60,18 @@ PressPage Entertainment Inc DBA PINGLEWARE
 
 ## Test Video
 [YouTube](https://www.youtube.com/watch?v=CibcsmurTbo)
+
+# MCP3245 Single Channel Analog to I2C
+![Arduino Nano MCP3425 I2C Analog to Digital Converter Tutorial](https://www.youtube.com/watch?v=8mtNd0gtG8M)
+
+Using an Analog to I2C for receiving microphone audio input
+
+# I2C to Analog
+See https://electronics.stackexchange.com/questions/333/implementing-i2c-to-analog
+
+Using I2C -> Analog for sending audio to a speaker
+
+# NEO-6MV2 GPS Module
+From the datasheet, the UART Interface at the output pins (Can use SPI ,I2C and USB by soldering pins to the chip core).
+
+https://www.amazon.com/HiLetgo-GY-NEO6MV2-Controller-Ceramic-Antenna/dp/B01D1D0F5M/
